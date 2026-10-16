@@ -1,0 +1,78 @@
+{
+  "baseline_acquired_share": 0.6468039003250271,
+  "results": [
+    {
+      "model": "Logistic regression",
+      "cv_accuracy": 0.713,
+      "cv_auc": 0.702,
+      "test_accuracy": 0.668,
+      "test_auc": 0.674
+    },
+    {
+      "model": "Random forest",
+      "cv_accuracy": 0.688,
+      "cv_auc": 0.702,
+      "test_accuracy": 0.668,
+      "test_auc": 0.704
+    }
+  ],
+  "scores": [
+    {
+      "scenario": "Base case",
+      "Logistic regression": 0.3781,
+      "Random forest": 0.5946,
+      "average": 0.4863
+    },
+    {
+      "scenario": "Sector: cleantech",
+      "Logistic regression": 0.3513,
+      "Random forest": 0.6454,
+      "average": 0.4984
+    },
+    {
+      "scenario": "Sector: other",
+      "Logistic regression": 0.6795,
+      "Random forest": 0.6966,
+      "average": 0.688
+    },
+    {
+      "scenario": "Funding USD 6.8M",
+      "Logistic regression": 0.3592,
+      "Random forest": 0.6047,
+      "average": 0.482
+    },
+    {
+      "scenario": "Funding USD 15M",
+      "Logistic regression": 0.4539,
+      "Random forest": 0.6119,
+      "average": 0.5329
+    },
+    {
+      "scenario": "3 funding rounds",
+      "Logistic regression": 0.338,
+      "Random forest": 0.5951,
+      "average": 0.4665
+    },
+    {
+      "scenario": "5 funding rounds",
+      "Logistic regression": 0.4199,
+      "Random forest": 0.5925,
+      "average": 0.5062
+    },
+    {
+      "scenario": "No angel investors",
+      "Logistic regression": 0.2892,
+      "Random forest": 0.5506,
+      "average": 0.4199
+    }
+  ],
+  "importance": {
+    "log_funding": 0.0296,
+    "age_at_last_funding": 0.0039,
+    "has_VC": -0.0043,
+    "funding_rounds": -0.0079,
+    "has_angel": -0.0087,
+    "category": -0.0122
+  },
+  "n_companies": 923
+}
