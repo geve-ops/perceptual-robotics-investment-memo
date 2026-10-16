@@ -1,3 +1,5 @@
+![Perceptual Robotics VC investment memo](assets/social-preview.png)
+
 # Perceptual Robotics: VC Investment Memo
 
 An investment memo and startup screening model on **Perceptual Robotics**, a Bristol and Athens company that builds autonomous drones and AI software for wind turbine blade inspection.
